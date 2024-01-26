@@ -1,0 +1,44 @@
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.contenedor-principal{
+    background-color: #F5F7FB;
+    display: flex;
+    flex-direction: column;
+}
+.tipos{
+    margin-left: 10%;
+}
+.contenedor-principal h1{
+    color: #393939;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 22px;
+
+}
+.nombre{
+    text-transform: capitalize;
+    color: #26367C;
+    font-family: Poppins;
+    font-size: 32px;
+}
+.cabeza{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+}
+.imagen{
+    display: flex;
+    align-self: flex-start;
+}
+.imagen p{
+    padding-top: 50px;
+    margin-right: 10px;
+}
+
